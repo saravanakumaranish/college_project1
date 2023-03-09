@@ -1,0 +1,346 @@
+.container {
+  background-color: white;
+  display:flex;
+  color:black;
+
+ 
+}
+
+.btn-first {
+  margin-top:0.5rem;
+}
+
+.btn-sec {
+  margin-top:0.5rem;
+}
+.main {
+  width:70%;
+  margin-left:1rem;
+  /* box-shadow: 3px 3px 3px grey; */
+}
+
+.main2 {
+  margin-left:2rem;
+}
+
+.main4 {
+  box-shadow:3px 3px 3px 3px whitesmoke;
+}
+
+.totals {
+  display:flex;
+  padding:0.5rem;
+  
+}
+
+.totals3 {
+  display:flex;
+  margin-top:5px;
+}
+
+.totals2 {
+  margin-right:0.5rem;
+}
+
+.totals1 {
+ padding:0.3rem;
+ margin-left:0.5rem;
+  
+}
+
+
+
+.pre {
+  display:flex;
+
+}
+
+
+.first {
+  font-size : 2rem;
+}
+
+.first1 {
+  background-color: blue;
+  border-radius: 15px;
+  color:white;
+  padding:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+.accordion3  {
+  /* box-shadow:7px 5px 10px grey; */
+  border-radius:4px;
+}
+
+.first2 {
+  color:orange;
+  /* box-shadow:7px 5px 10px grey;
+  border-radius:4px; */
+  /* width:60%; */
+}
+
+.first3 {
+  display:flex;
+
+}
+
+ .view {
+  border: none;
+  color: blue;
+  
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 13px;
+  margin-top:3.2rem;
+
+  cursor: pointer; 
+  margin-left: 0.5rem;
+ }
+
+ .syllabus {
+  margin-top:1rem;
+ }
+ .view1 {
+  border: none;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left:14rem;
+ }
+
+
+.first4 {
+  display:flex;
+  padding:0.5rem;
+
+}
+
+.btn-first {
+  background-color: orange;
+  padding:0.3rem;
+  margin-left:3rem;
+  border-radius:3px;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.first5 {
+  width:50%;
+}
+
+.btn-sec {
+  background-color: grey;
+  padding:0.3rem;
+  margin-left:3rem;
+  border-radius:3px;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.practic {
+  width:50%;
+}
+.data{
+  width:50%;
+}
+
+.data1{
+  display:flex;
+}
+.accordion {
+  width:50%;
+}
+
+.total {
+  display:flex;
+}
+
+.stu{
+  padding:0.5rem;
+}
+
+.wei {
+  font-weight:bold;
+  
+}
+
+.weight {
+  font-weight: bold;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.weight2 {
+  font-weight:bold;
+  margin-left:0.5rem;
+}
+
+.weight3 {
+  margin-left:0.5rem;
+}
+
+
+.upcom {
+  display:flex;
+}
+
+.mar {
+  margin-left:2rem;
+}
+
+.march {
+  margin-left:2rem;
+  font-weight:500;
+}
+
+.bold2 {
+  font-weight:500;
+}
+
+.btn3 {
+  margin-left: 1%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  padding-top: 0.2rem;
+  padding-bottom:0.2rem;
+  width:100%;
+ 
+ 
+}
+
+.btn4 {
+  margin-left:12%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  padding-top: 0.2rem;
+  padding-bottom:0.2rem;
+  width:90%;
+
+ 
+
+  
+}
+
+
+.upcom2 {
+  display:flex;
+  margin-left:2rem;
+}
+
+.upcoming {
+  display:flex;
+}
+
+.syllabus {
+  display:flex;
+}
+
+.syllabus1 {
+  display:flex;
+  margin-top:5px;
+}
+
+.vie1 {
+  margin-left:86%;
+  border-style:solid;
+  padding-top:1px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+
+  color:white;
+  background-color: blue;
+}
+
+.vie2 {
+  margin-left:170%;
+  border-style:solid;
+  padding-top:1px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+  margin-top:2px;
+
+  color:white;
+  background-color: blue;
+}
+
+.bolding {
+  font-weight:600;
+}
+
+.event {
+  font-weight:500;
+  margin-top: 30px;;
+}
+.leave {
+  font-weight:500;
+  margin-top:2rem;
+}
+
+.table {
+  margin-top:10px;
+}
+
+.holi {
+  font-weight:700;
+  margin-top:8px;
+}
+.accordion2{
+  width:100%;
+  margin-right:-10px;
+ 
+}
+
+.accordion3 {
+  width:100%;
+  margin-right:16px;
+}
+
+.select {
+  font-weight:300;
+}
+
+.event1 {
+  font-weight:250;
+}
+
+.date {
+  display:flex;
+  margin-top:7px;
+}
+
+.padding {
+  padding-left:10px;
+}
+
+.padding1 {
+  padding-left:3rem;
+}
+
+.comp {
+  display:flex;
+}
+
+.sem {
+  margin-left:5rem;
+}
+
+.sem1 {
+  margin-left:5rem;
+  margin-top:1rem;
+}
+
+
+
+.sem2 {
+  margin-left:3rem;
+  margin-top:1rem;
+}
+
+.semv {
+  margin-left:3rem;
+}
