@@ -55,11 +55,12 @@ const Home=() => {
     </div>
     <div>
     <InputGroup className='search'>
-    <InputLeftElement
+    <InputLeftElement>
       pointerEvents='none'
-      children={<SearchIcon color='gray.500' />}
+      <SearchIcon color='gray.500' />
       mt={-1}
-    />
+      </InputLeftElement>
+    
    <Input className='typing'
     height='25px'
     htmlSize={12}
