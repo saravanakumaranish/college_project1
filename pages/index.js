@@ -55,8 +55,8 @@ const Home=() => {
     </div>
     <div>
     <InputGroup className='search'>
-    <InputLeftElement>
-      pointerEvents='none'
+    <InputLeftElement
+      pointerEvents='none'>
       <SearchIcon color='gray.500' />
       mt={-1}
       </InputLeftElement>
