@@ -1192,11 +1192,14 @@ color:white;
 }
 .ninty {
 
-  margin-top:0.2rem;
+  margin-top:0.4rem;
+  margin-left:-1rem;
 }
 
 .ninty2 {
-  margin-left:-0.5rem;
+  margin-left:-1rem;
+  margin-top:0.4rem;
+  /* margin-right:7rem; */
 }
 
 
