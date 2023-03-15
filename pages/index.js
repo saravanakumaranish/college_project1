@@ -35,7 +35,7 @@ const Home=() => {
   const breakPoints = [
     // {width:1,itemsToShow:1},
    
-    // {width:768,itemsToShow:3},
+    // {width:768,itemsToShow:4},
     {width:1200,itemsToShow:4}
   ];
 
@@ -58,7 +58,7 @@ const Home=() => {
     <InputLeftElement
       pointerEvents='none'>
       <SearchIcon color='gray.500' />
-      mt={-1}
+     
       </InputLeftElement>
     
    <Input className='typing'
