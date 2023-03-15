@@ -15,7 +15,10 @@
 
 .icons {
  
-  padding-bottom:0.6rem;
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+  padding-top:0.5rem;
+  padding-bottom:1rem;
   margin-right:1rem;
   color:grey;
   background-color: #FFFFFF;
@@ -34,9 +37,12 @@
   color: #2264e2;
 }
 
-.icons5 {
- 
-  padding-bottom:15rem;
+.icons5 { 
+
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+  padding-top:0.5rem;
+  padding-bottom:7rem;
   margin-right:1rem;
   color:grey;
   background-color: #FFFFFF;
@@ -58,7 +64,10 @@
 
 .icons1 {
  
-  padding-bottom:0.6rem;
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+  padding-top:0.5rem;
+  padding-bottom:1rem;
   margin-right:1rem;
   background-color: #FFFFFF;
   
@@ -71,16 +80,17 @@
 .btn-sec {
   margin-top:1.5rem;
 }
- /* .main {
-   width:65%; 
+ .main {
+   margin-left:1rem;
+   width:65%;
   
-}  */
+} 
 
 
 
 .border {
-  /* margin-left:0.3rem; */
-  width:230px;
+  /* margin-left:10rem; */
+  /* width:230px; */
   background-color: #FFFDD0;
   padding:0.3rem;
   /* padding-right:3px; */
@@ -88,9 +98,9 @@
 
 .border2 {
   padding:0.3rem;
-  width:230px;
+  /* width:50%; */
   background-color:#FFFDD0;
-  margin-left:-1rem;
+  margin-left:2rem;
 }
 
 
@@ -107,6 +117,7 @@
 .edu {
   display:flex;
   background-color:#FFFFFF;
+  padding:0.7rem;
 
   /* margin-top:2rem; */
 }
@@ -115,70 +126,88 @@
   width:25%
 }
 
+.light {
+  margin-top: -0.7rem;
+}
+
+
 
 .search {
-  margin-left:40rem;
+  margin-left:30rem;
 }
 
 .down {
   color:black;
   margin-bottom:7px;
-  width:15px;
-  margin-left:-8px;
+  width:23px;
+  height:20px;
+  /* margin-top:0.5rem; */
+  /* margin-right:-1rem; */
+  /* position:absolute; */
 }
 
 .rams {
   color:#2264e2;
-  font-size:12px;
+  font-size:18px;
+  margin-left:0.5rem;
+  /* margin-top:0.5rem; */
 }
 
 .avatar {
-  margin-top:2px;
-  margin-left:1rem;
+  /* margin-top:2px; */
+  margin-left:2rem;
+
+  /* position:relative; */
   
 }
 
 .bell {
   fill:#2264e2;
-  width:25px;
-  height:25px;
+  width:35px;
+  height:35px;
   border-style: solid;
   background-color: skyblue;
-  border-radius: 12px;
+  border-radius: 18px;
   padding:2px;
   border-width:1px;
+  
   border-color:#2264e2;
-  margin-top:-10px;
-  margin-left:9rem;
+  margin-top:-9px;
+  margin-left:12rem;
 }
 
 
 .fafol {
    color:orange;
-   width:40px;
+   width:30px;
+   height:30px;
    margin-left:0.3rem;
    margin-top:-0.8rem;
 }
 
 .edumatica {
   color:#2264e2;
-  margin-left:-0.2rem;
-  font-weight:700;
+  margin-left:0.5rem;
+  margin-top:-0.5rem;
+  font-weight:650;
+  font-size:1.5rem;
 }
 
 
 
 .main2 {
-  margin-left:3rem;
+  margin-left:4rem;
   margin-top:-1rem;
   /* width:50%; */
 }
+
+
 
 .main4 {
   /* box-shadow:3px 3px 3px 3px whitesmoke; */
    /* width:100%;  */
    margin-left:-1.7rem;
-   position:relative;
+   /* position:absolute; */
    background-color: #FFFFFF;
    padding-left:1rem;
    padding-right:1rem;
@@ -188,47 +217,50 @@
 .totals {
   display:flex;
   padding:0.5rem;
+ 
+
   
 }
 
 .pre {
   display:flex;
-  margin-left:1.5rem;
+  margin-left:24.5rem;
   background-color: #FEFEFA;
   margin-top:-1rem;
   padding-top:2rem;
-  padding-left:2rem;
-  padding-right:2.4rem;
+  padding-left:4rem;
+  padding-right:2.1rem;
   
 
 }
 
 .totals3 {
   display:flex;
-  margin-top:-1rem;
-  margin-left:1.5rem;
+  margin-top:-0.5rem;
+  margin-left:3.5rem;
   margin-right:-1rem;
   background-color: #FEFEFA;
   padding-left: 4rem;
   padding-top: 2rem;
-  
+  position:absolute;
+  padding-right: 1.7rem;
   
 }
 
 .totals2 {
   margin-left:-2.9rem;
-  font-size:9.5px;
+  font-size:13px;
 
 }
 
 .totals-stu1 {
   margin-right:0.5rem;
   margin-left:-1.5rem;
-  font-size:9.5px;
+  font-size:13px;
 }
 .totals-stu2 {
   margin-right:0.5rem;
-  font-size:9.5px;
+  font-size:13px;
   margin-left:-1.6rem;
 }
 
@@ -244,23 +276,24 @@
 
 
 .one {
-  font-size: 10px;
+  font-size: 24px;
   font-weight: 100;
-  margin-bottom:-3rem;
+  /* margin-bottom:-3rem; */
 }
 
 .first {
-  font-size : 1.4rem;
+  font-size : 2.5rem;
   font-weight:500;
  
 
 }
 
 .radio-circle{
-  margin-top:-1.5rem;
+  margin-top:-1.3rem;
   margin-left:-4rem;
-  width: 11px;
+  width: 14px;
   fill : #d3d3d3;
+  padding-right:2px;
 }
 .radio-abs {
   display:flex;
@@ -272,41 +305,48 @@
   display:flex;
 }
 .totals12 {
-  font-size:9.5px;
+  font-size:13px;
   margin-top: 0.3rem;
   margin-left:-1.5rem;
 }
 
 .radio-pre {
      margin-left:-1rem;
-     margin-top:-1rem;
-     width:11px;
+     margin-top:-0.5rem;
+     width:14px;
+     padding-right:3px;
      fill:#d3d3d3;
+   
 }
 
 .radio-pre1 {
   margin-left:-1rem;
-  margin-top:-1rem;
-  width:11px;
+
+ 
   fill:#2264e2;
+  margin-top:-0.5rem;
+  width:14px;
+  padding-right:3px;
 }
 
 .radio-pre2 {
   margin-left:-1rem;
-  margin-top:-1rem;
-  width:11px;
+  margin-top:-0.5rem;
+  width:14px;
+  padding-right:3px;
+ 
   fill:orange;
 }
 
 
 .totals-abs1 {
-  font-size:9.5px;
+  font-size:13px;
   margin-top: 0.3rem;
   margin-left:-1.4rem;
 }
 
 .totals-abs2 {
-  font-size:9.5px;
+  font-size:13px;
   margin-top: 0.3rem;
   margin-left:-1.4rem;
 }
@@ -315,17 +355,19 @@
 
 
 .radio-circle1{
-  margin-top:-1.5rem;
+  margin-top:-1.3rem;
   margin-left:-1.1rem;
-  width: 11px;
+  width: 14px;
   fill:#2264e2;
+  padding-right:2px;
 }
 
 .radio-circle2{
-  margin-top:-1.5rem;
+  margin-top:-1.3rem;
   margin-left:-1.3rem;
-  width: 11px;
+  width: 14px;
   fill:orange;
+  padding-right:2px;
 }
 
 .bi-radio1 {
@@ -343,12 +385,15 @@
   display:flex;
   background-color:#2264e2;
   border-radius:9px;
-  width:95%;
+  width:100%;
+  padding-bottom:2rem;
 }
 
 .images {
-  margin-left:25rem;
-  border-radius:45px;
+  margin-left:41rem;
+  border-radius:20px;
+  margin-bottom:-2rem;
+ 
 
   /* position:relative; */
   /* margin-top:0.2rem; */
@@ -367,7 +412,7 @@
 
 .first2 {
   color:orange;
-  font-size:9.5px;
+  font-size:15px;
   width:120%;
   margin-top:0.5rem;
   background-color: #FFFFFF;
@@ -395,9 +440,9 @@
   color: blue;
 
   margin-bottom:1rem;
-  margin-left:9.2rem;
+  margin-left:12rem;
   margin-top:0.5rem;
-  font-size:11px;
+  font-size:15px;
   /* padding-bottom:3rem; */
  }
 
@@ -406,9 +451,9 @@
   color: blue;
 
   margin-bottom:1rem;
-  margin-left:9rem;
+  margin-left:12.5rem;
   margin-top:0.5rem;
-  font-size:11px;
+  font-size:15px;
   /* padding-bottom:3rem; */
 }
 
@@ -417,7 +462,10 @@
   font-size:14px;
   font-weight:500;
   background-color: #FFFFFF;
-  padding:0.5rem;
+  padding-top:1.3rem;
+  padding-bottom:1.3rem;
+  padding-left:0.8rem;
+  padding-right:0.8rem;
   margin-left:-1rem;
   
  }
@@ -426,24 +474,25 @@
   color: blue;
   text-align: center;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   margin-left:14rem;
  }
 
 
 .first4 {
   display:flex;
-  padding-bottom:0.1rem;
+  padding-bottom:0.8rem;
 
 }
 
 .btn-first {
   background-color: orange;
-  padding:0.3rem;
-  margin-left:3.2rem;
+  padding:0.7rem;
+  margin-left:8rem;
   border-radius:2px;
-  padding-left:0.5rem;
-  padding-right:0.5rem;
+  padding-left:1rem;
+  font-size:18px;
+  padding-right:1rem;
   margin-top:1.5rem;
   color:white;
 }
@@ -455,11 +504,12 @@
 
 .btn-sec {
   background-color: grey;
-  padding:0.3rem;
-  margin-left:3.5rem;
+  padding:0.7rem;
+  font-size:18px;
+  margin-left:8.2rem;
   border-radius:2px;
-  padding-left:0.5rem;
-  padding-right:0.5rem;
+  padding-left:1rem;
+  padding-right:1rem;
   color:white;
 }
 
@@ -478,11 +528,12 @@
 
 .btn-thi {
   background-color: grey;
-  padding:0.3rem;
-  margin-left:3.2rem;
+  padding:0.7rem;
+  font-size:18px;
+  margin-left:8rem;
   border-radius:2px;
-  padding-left:0.5rem;
-  padding-right:0.5rem;
+  padding-left:1rem;
+  padding-right:1rem;
   
   margin-top:1.5rem;
   color:white;
@@ -502,20 +553,27 @@
 .bolding-thi {
   font-weight:600;
   margin-top:1rem;
-  font-size:1rem;
-  margin-left:2.5rem;
+  font-size:1.3rem;
+  margin-left:4.5rem;
  
 }
 .trans {
-  margin-left:2rem;
-  font-size:0.7rem;
+  margin-left:4rem;
+  font-size:15px;
+  color: grey;
+
+}
+
+.trans1 {
+  margin-left:4.5rem;
+  font-size:15px;
   color: grey;
 
 }
 
 .trans-one {
-  margin-left:2rem;
-  font-size:0.7rem;
+  margin-left:4rem;
+  font-size:14px;
   color: grey;
 
 }
@@ -532,6 +590,8 @@
 
 .data1{
   display:flex;
+  padding-bottom:0.7rem;
+  padding-top:0.8rem;
 }
 .accordion {
   width:50%;
@@ -539,7 +599,8 @@
 
 .total {
   display:flex;
-  margin-top:1.5rem;
+  margin-top:1rem;
+  margin-left:7rem;
 }
 .shit {
     margin-left:-1rem;
@@ -566,7 +627,7 @@
 .wei {
   font-weight:645;
   margin-top:1rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
  
   
 }
@@ -576,6 +637,7 @@
   margin-top:3.5rem;
   margin-bottom:1rem;
   font-size:0.8rem;
+  font-size: 1.3rem;
   padding-top:0.5rem;
 }
 
@@ -583,11 +645,12 @@
 .weight2 {
   font-weight:645;
   margin-left:0.5rem;
+  font-size:1.3rem;
 }
 
 .break {
   margin-left:-1rem;
-  width:30px;
+  /* width:30%; */
 }
 
 .main11 {
@@ -630,11 +693,11 @@
 
 .weight3 {
   margin-left:0.5rem;
-  font-size:11px;
+  font-size:14px;
 }
 
 .fonts {
-  font-size:11px;
+  font-size:14px;
   /* color:grey; */
 }
 
@@ -647,31 +710,33 @@
 }
 
 .mar {
-  margin-left:5.5rem;
-  font-size:11px;
+  margin-left:7rem;
+  font-size:12px;
   color:grey;
+  padding-top:1px;
 }
 
 .batch {
-  font-size:11px;
+  font-size:14px;
   margin-top:1rem;
   margin-left:-0.5rem;
   position: absolute;
+  padding-top:2px;
   /* margin-left:-4rem; */
 
 }
 
 
 .march {
-  margin-left:5.5rem;
+  margin-left:7rem;
   font-weight:700;
-  font-size:12px;
+  font-size:14px;
 }
 
 .bold2 {
   font-weight:700;
   position:absolute;
-  font-size:10px;
+  font-size:14px;
   margin-left:-0.5rem; 
   
 }
@@ -748,16 +813,19 @@ color:white;
   display:flex;
 }
 .timing {
-  margin-left:0.5rem;
+  margin-left:1rem;
+  margin-top:0.2rem;
+  font-weight:600;
+  font-size:17px;
 }
 
 .timetable {
   /* margin-left:-4rem; */
   position:absolute;
-  margin-top:0.3rem;
+  /* margin-top:0.3rem; */
   margin-left:-1rem;
-  width:30px;
-  height:20px;
+  width:40px;
+  height:30px;
 
 }
 
@@ -767,34 +835,44 @@ color:white;
   font-size:14px;
   /* margin-:0.5rem; */
   font-weight:500;
+  padding-top:1.3rem;
+  padding-bottom:1.3rem;
+  padding-left:1.2rem;
+  padding-right:0.8rem;
   background-color: #FFFFFF;
-  padding:0.5rem;
-  padding-left: 1rem;
-  margin-left:-1rem;
+  margin-left:-0.8rem;
+ 
+
+  /* margin-left:-1rem; */
   gap:10px;
 }
 .covered {
   position: absolute;
   margin-left:0.2rem;
+  margin-top:0.5rem;
+  font-weight:600;
+  font-size:17px;
+ 
 }
 
 .vie3 {
-  /* margin-top:0.2rem; */
-  margin-left:30.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 11px;
+  margin-top:0.4rem;
+  margin-left:42rem;
+  /* margin-bottom: 0.5rem; */
+  font-size: 15px;
   color: #2264e2;
 }
 
 .vie1 {
-  margin-left:8rem;
+  margin-left:10rem;
+  margin-top:0.3rem;
   border-style:solid;
-  padding-top:1px;
-  padding-left:8px;
-  padding-right:8px;
+  padding:4px;
+  padding-left:16px;
+  padding-right:16px;
   border-radius:2px;
   text-align:center;
-  font-size:13px;
+  font-size:15px;
 
   color:white;
   background-color: #2264e2;
@@ -803,8 +881,8 @@ color:white;
 .timetable1 {
   margin-top:0.3rem;
   margin-left:-0.5rem;
-  width: 30px;
-  height:20px;
+  width: 40px;
+  height:30px;
 }
 
 
@@ -812,14 +890,15 @@ color:white;
 .vie2 {
   /* margin-left:170%; */
   border-style:solid;
-  padding-top:1px;
-  padding-left:8px;
-  padding-right:8px;
+  padding:4px;
+  padding-left:16px;
+  padding-right:16px;
   border-radius:2px;
-  margin-top:2px;
-  margin-left:2.8rem;
+  /* margin-top:px; */
+
+  margin-left:4rem;
   text-align:center;
-  font-size:13px;
+  font-size:15px;
 
   color:white;
   background-color: #2264e2;
@@ -828,19 +907,19 @@ color:white;
 .bolding {
   font-weight:600;
   margin-top:1rem;
-  font-size:1rem;
-  margin-left:2rem;
+  font-size:1.3rem;
+  margin-left:4rem;
 }
 
 .bolding-sec {
   font-weight:600;
   margin-top:1rem;
-  font-size:1rem;
-  margin-left:2rem;
+  font-size:1.3rem;
+  margin-left:4rem;
 }
 .event {
-  font-weight:500;
-  font-size: 15px;
+  font-weight:600;
+  font-size: 17px;
   margin-top: 30px;
   padding-top:0.5rem;
  
@@ -848,6 +927,7 @@ color:white;
 .leave {
   font-weight:500;
   margin-top:2rem;
+  font-size:17px;
   padding-top:0.5rem;
 }
 
@@ -856,6 +936,7 @@ color:white;
   background-color: #F0F8FF;
   padding-left:0.3rem;
   margin-left:-0.3rem;
+  margin-top:0.5rem;
  
 }
 
@@ -870,17 +951,19 @@ color:white;
 }
 
 .dance-flexing {
-    width:12px;
+    width:14px;
     color:#2264e2;
-    margin-bottom: -0.5rem;
-    margin-left:1.5rem;
+    margin-left:4rem;
+    margin-top:1.3rem;
+
 }
 
 .holi-flexing {
-  width:12px;
+  width:14px;
   color:#2264e2;
-  margin-bottom: -0.5rem;
-  margin-left:8rem;
+  /* margin-bottom: -0.5rem; */
+  margin-top:1.7rem;
+  margin-left:11rem;
 }
 
 .table {
@@ -889,38 +972,45 @@ color:white;
 
 .holi {
   font-weight:650;
-  font-size:15px;
+  font-size:17px;
   margin-top:8px;
 }
 
 .holi1 {
   font-weight:650;
-  font-size:15px;
+  font-size:17px;
   margin-top:15px;
   background-color: #F0F8FF;
 }
 .accordion2{
-  width:100%;
+  width:80%;
   margin-right:-10px;
+  margin-top:1rem;
  
 }
 .select {
-  font-size:10px;
+  font-size:14px;
   font-weight:400;
  
 }
 
+.select100 {
+  font-size:17px;
+  font-weight:200;
+ 
+}
+
 .select1 {
-  font-size:10px;
+  font-size:14px;
   font-weight:400;
  
 }
 
 
 .accordion3 {
-  width:95%;
+  width:100%;
   /* margin-right:1rem; */
-  margin-left:2.8rem;
+  margin-left:7rem;
   /* font-size:10px; */
   border-radius:4px;
   align-self: center;
@@ -930,9 +1020,9 @@ color:white;
 }
 
 .accordion4 {
-  width:70%;
+  width:60%;
   margin-right:4rem;
-  margin-left:2.5rem;
+  margin-left:8rem;
   border-radius:4px;
   margin-top:0.3rem;
 
@@ -944,19 +1034,43 @@ color:white;
 
 .event1 {
   font-weight:250;
-  font-size:12px;
+  font-size:15px;
+  margin-left:-0.8rem;
+  
+}
+
+
+
+
+.eventsing1 {
+  font-weight:250;
+  font-size:15px;
+  margin-left:1rem;
+  
 }
 
 
 .events1 {
   font-weight:250;
-  font-size:10px;
+  font-size:15px;
+  margin-left:-0.8rem;
 }
+
+.events19 {
+  font-weight:250;
+  font-size:14px;
+  margin-left:1rem;
+}
+
+.bounding {
+  margin-left:1rem;
+}
+
 
 
 .high-event1 {
   font-weight:400;
-  font-size:13px;
+  font-size:15px;
   /* margin-top: 0.2rem; */
   background-color: #F0F8FF;
   padding-left:0.5rem;
@@ -966,7 +1080,7 @@ color:white;
 
 .high-event {
   font-weight:400;
-  font-size:13px;
+  font-size:15px;
   margin-top: -0.4rem;
   background-color: #F0F8FF;
   padding-left:0.5rem;
@@ -976,18 +1090,31 @@ color:white;
 
 
 .upcom-date {
-  font-size:12px;
+  font-size:15px;
   font-weight:500;
+  margin-left:-0.8rem;
+}
+
+.upcom-dateing {
+  font-size:15px;
+  font-weight:500;
+  margin-left:1rem;
+
+}
+
+.padding {
+  margin-left:-1rem;
 }
 
 .date {
   display:flex;
   /* margin-top:2px; */
   background-color: #F0F8FF;
-  padding-left:0.2rem;
+  padding-left:1.5rem;
+  padding-bottom:1rem;
   margin-left:-5px;
-  padding-top:0.5rem;
-  padding-bottom:0.5rem;
+  padding-top:1rem;
+  padding-right:1rem;
 
 }
 
@@ -1007,6 +1134,7 @@ color:white;
 
 .padding1 {
   padding-left:3rem;
+  margin-left:1.5rem;
 }
 
 .comp {
@@ -1014,33 +1142,45 @@ color:white;
 }
 
 .sem {
-  margin-left:3rem;
-  font-size: 12px;
+  /* margin-left:3rem; */
+  font-size: 16px;
   font-weight:500;
+}
+
+.main20 {
+  padding-bottom:3rem;
 }
 .process {
   display:flex;
   background-color: #FEFEFA;
-  margin-left:2rem;
+  margin-left:4rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:1rem;
+  position:absolute;
  
 }
 
 .process1 {
   display:flex;
   background-color: #FEFEFA;
-  margin-left:0.5rem;
+  margin-left:25rem;
+  position:absolute;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:1rem;
  
 }
 
 .radio {
   margin-top: -1.2rem;
-  margin-left:3rem;
+  margin-left:6rem;
   color:#2264e2;
 }
 
 
 .stu {
-  font-size: 12px;
+  font-size: 17px;
   font-weight:500;
 }
 .colors {
@@ -1062,34 +1202,35 @@ color:white;
 
 
 .sem2 {
-  margin-left:2rem;
-  margin-top:-1.3rem;
+  margin-left:4rem;
+  margin-top:3rem;
   background-color: #FEFEFA;
-  padding-top:0.6rem;
+  padding-top:1rem;
   padding-left:3rem;
-  padding-right:3.5rem;
+  padding-right:6rem;
+  position:absolute;
 }
 
 .sem1 {
   background-color: #FEFEFA;
-  padding-top:0.6rem;
-  padding-left:3rem;
-  padding-right:4.5rem;
-  margin-left:0.5rem;
-  margin-top:-1.3rem;
+  padding-top:1rem;
+  padding-left:3.6rem;
+  padding-right:6.5rem;
+  margin-left:2.7rem;
+  margin-top:2.8rem;
  
 }
 
 .semv {
-  margin-left:3rem;
-  font-size: 12px;
+  /* margin-left:1.5rem; */
+  font-size:16px; 
   font-weight:500;
 }
 
 .sec-para {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .selectpara {
-  font-size:10px;
+  font-size:12px;
 }
