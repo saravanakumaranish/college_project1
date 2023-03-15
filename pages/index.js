@@ -8,7 +8,7 @@ import { SiBlueprint } from "react-icons/si"
 import { FaFolder } from "react-icons/fa"
 import { BiLeftArrowAlt } from "react-icons/bi"
 import Caurosel from 'react-elastic-carousel'
-import { CgRadioChecked } from "react-icons/cg"
+import { CgCarousel, CgRadioChecked } from "react-icons/cg"
 import { GiWhiteBook } from "react-icons/gi"
 import { IoIosRadioButtonOn } from 'react-icons/io'
 import Image from 'next/image'
@@ -34,10 +34,20 @@ import { SearchIcon } from '@chakra-ui/icons'
 const Home=() => {
   const breakPoints = [
     // {width:1,itemsToShow:1},
+    // {width:,itemsToShow:2}
    
-    // {width:768,itemsToShow:4},
+    // {width:768,itemsToShow:3},
     {width:1200,itemsToShow:4}
   ];
+
+  const breakPoints1 = [
+    // {width:1,itemsToShow:1},
+    // {width:,itemsToShow:2}
+   
+    // {width:768,itemsToShow:3},
+    {width:1200,itemsToShow:2}
+  ];
+
 
 
   
@@ -54,10 +64,10 @@ const Home=() => {
       <p className='edumatica'>Edumatica</p>
     </div>
     <div>
-    <InputGroup className='search'>
-    <InputLeftElement
-      pointerEvents='none'>
-      <SearchIcon color='gray.500' />
+    <InputGroup className='search' size='md'>
+    <InputLeftElement 
+      pointerEvents='none' >
+      <SearchIcon color='gray.500' className='light' />
      
       </InputLeftElement>
     
@@ -79,7 +89,7 @@ const Home=() => {
       </IconButton>
     </div>
     <div>
-    <Avatar className='avatar' size='xs' name=' Ram'  src='https://bit.ly/code-beast' />{' '} <span className='rams'> Rams </span>
+    <Avatar className='avatar' size='sm'  name=' Ram'  src='https://bit.ly/code-beast' />{' '} <span className='rams'> Rams </span>
     </div>
     <div>
       <IconButton>
@@ -95,35 +105,35 @@ const Home=() => {
 <div className='tally' >
   <div className='icons1'>
   <IconButton aria-label="Home"  color='#2264e2'>
-    < MdHomeFilled size="25px"  />
+    < MdHomeFilled size="30px"  />
     </IconButton>
     </div>
     <div className='icons'>
     < IconButton >
-    < TbTallymark4 size="25px" />
+    < TbTallymark4 size="30px" />
     </IconButton>
     </div>
     <div className='icons'>
     <IconButton aria-label="Assignment"  >
-    < MdAssignment size="25px"  />
+    < MdAssignment size="30px"  />
     </IconButton>
     </div>
     <div className='icons'>
     <IconButton >
-      < BsFileEarmarkBarGraphFill  size = "25px"/>
+      < BsFileEarmarkBarGraphFill  size = "30px"/>
     </IconButton>
     </div>
     <div className='icons'>
     
 
     <IconButton aria-label="check"  >
-    <BsFillClipboard2CheckFill  size="25px"   />
+    <BsFillClipboard2CheckFill  size="30px"   />
     </IconButton>
     </div>
     <div className='icons5'>
     
     <IconButton aria-label="Debit card"  >
-    < AiFillCreditCard size="25px" />
+    < AiFillCreditCard size="30px" />
     </IconButton>
     </div>
   
@@ -140,7 +150,7 @@ const Home=() => {
     </div>
     <div>
       <Image src="/classroom.png"
-      alt="class room" width="96" height="100" className='images' />
+      alt="class room" width="160" height="160" className='images' />
     </div>
     </div>
 
@@ -206,13 +216,13 @@ const Home=() => {
     
   <TabList  className='hiden'>
     <Caurosel breakPoints={breakPoints} className='break'>
-  <Tab className='all' color='white'  pl={6} pr={6}   fontSize={12} borderRadius={21} >All</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={10} className='semester'>Semester II</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}    fontSize={10} className='semester'>Year I</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={10} className='semester'>Semester IV</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={10} className='semester'>Semester VI</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={10} className='semester'>Semester VII</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={10} className='semester'>Semester III</Tab>
+  <Tab className='all' color='white'  pl={6} pr={6}   fontSize={15} borderRadius={21} >All</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={15} className='semester'>Semester II</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}    fontSize={15} className='semester'>Year I</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={15} className='semester'>Semester IV</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={15} className='semester'>Semester VI</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={15} className='semester'>Semester VII</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}   fontSize={15} className='semester'>Semester III</Tab>
     </Caurosel>
   </TabList>
   
@@ -224,7 +234,7 @@ const Home=() => {
     <TabPanel>
       <div className='first4'>
       <div className='book'>
-      < GiWhiteBook size='30px' color='orange' />
+      < GiWhiteBook size='50px' color='orange' />
       </div>
       <div className='first5' >
 
@@ -241,8 +251,9 @@ const Home=() => {
         </div>
         </div>
         <div className='first4'>
+     
         <div className='book'>
-      < GiWhiteBook size='30px' color='green'/>
+      < GiWhiteBook size='50px' color='green'/>
       </div>
         <div className='practic'>
       <h3  className='wei' ><b>C++</b> - Practical</h3>
@@ -256,10 +267,11 @@ const Home=() => {
       <div>
       <button className='btn-sec' >join class</button>
         </div>
+      
         </div>
         <div className='data1'>
         <div className='book'>
-      < GiWhiteBook size='30px' color='#2264e2'/>
+      < GiWhiteBook size='50px' color='#2264e2'/>
       </div>
         <div className='data'>
         <h3  className='weight2'><b>Data Structure</b> - Theory</h3>
@@ -268,7 +280,7 @@ const Home=() => {
         </div>
         <div>
         <h4 className='bolding-thi' >10.00AM</h4>
-        <p  className='trans'>12/01/2022</p>
+        <p  className='trans1'>12/01/2022</p>
       </div>
       <div>
       <button className='btn-thi' >join class</button>
@@ -295,13 +307,13 @@ const Home=() => {
       <Tabs variant='unstyled' mt={6}  >
   <TabList>
   <Caurosel breakPoints={breakPoints}>
-    <Tab className='all' color='white'  pl={6} pr={6}  fontSize={12} borderRadius={21} >All</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21} fontSize={11} className='semester'>Semester II</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={11} className='semester'>Year I</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={10} className='semester'>Semester IV</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={10} className='semester'>Semester VI</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={10} className='semester'>Semester VII</Tab>
-    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={10} className='semester'>Semester VIII</Tab>
+    <Tab className='all' color='white'  pl={6} pr={6}  fontSize={15} borderRadius={21} >All</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21} fontSize={15} className='semester'>Semester II</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={15} className='semester'>Year I</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={15} className='semester'>Semester IV</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={15} className='semester'>Semester VI</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={15} className='semester'>Semester VII</Tab>
+    <Tab pl={5} pr={5}  borderRadius={21}  fontSize={15} className='semester'>Semester VIII</Tab>
     </Caurosel>
   </TabList>
  
@@ -350,7 +362,7 @@ const Home=() => {
     </div>
   
    
-    <CircularProgress value={90}  color='#2264e2' size='120px' className='sem2' >
+    <CircularProgress value={90}  color='#2264e2' size='150px' thickness='12px' className='sem2' >
   <CircularProgressLabel className='ninty'  >90%</CircularProgressLabel>
 </CircularProgress>
 
@@ -359,7 +371,7 @@ const Home=() => {
 
    
 
-<CircularProgress value={90} color='#2264e2'  size='120px' className='sem1'>
+<CircularProgress value={90} color='#2264e2'  size='150px' thickness='12px' className='sem1'>
   <CircularProgressLabel className='ninty2'  >90%</CircularProgressLabel>
 </CircularProgress>
 <div className='totals'>
@@ -448,14 +460,15 @@ const Home=() => {
     <div className='main11'>
       <h4 className='weight'>Upcoming Public Course Classes</h4>
       <div className='upcoming'>
-        <div>
+        {/* <div>
           <IconButton>
             < AiOutlineLeft className='left' />
           </IconButton>
-        </div>
+        </div> */}
     
+    <Caurosel breakPoints={breakPoints1}>
       <div className='border2'>
-        < AiTwotoneBook size='60px' className='int-book'/>
+        < AiTwotoneBook size='70px' className='int-book'/>
       <div className='upcom'>
           
         
@@ -480,7 +493,7 @@ const Home=() => {
       </div>
      
       <div className='border'>
-      < AiTwotoneBook size='60px'  className='int-book'/>
+      < AiTwotoneBook size='70px'  className='int-book'/>
       <div className='upcom2'>
         <div>
       <h3 className='bold2'>Course Name</h3>
@@ -499,13 +512,59 @@ const Home=() => {
     
       </div>
 
+
+      <div className='border2'>
+        < AiTwotoneBook size='70px' className='int-book'/>
+      <div className='upcom'>
+          
+        
+        <div className='course'>
+          <div>
+          <p className='bold2'>Course Name</p>
+          </div>
+          <div>
+          <p className='batch'>Batch Name</p>
+          </div>
       
+    
+      </div>
       <div>
+      <p className='march'>10.00AM</p>
+      <p className='mar'>12/01/2022</p>
+      </div>
+      </div>
+
+     
+      <button className='btn3'>Join Class</button>
+      </div>
+     
+      <div className='border'>
+      < AiTwotoneBook size='70px'  className='int-book'/>
+      <div className='upcom2'>
+        <div>
+      <h3 className='bold2'>Course Name</h3>
+      <p className='batch'>Batch Name</p>
+      </div>
+      <div>
+      <p className='march'>11.00AM</p>
+    
+    
+      <p className='mar'>12/01/2022</p>
+      </div>
+     
+      </div>
+      <button className='btn4'>Join Class</button>
+
+    </div>
+      </Caurosel>
+
+      
+      {/* <div>
         <IconButton>
           < AiOutlineRight className='right' />
         </IconButton>
       </div>
-     
+      */}
      
      
       </div>
@@ -566,9 +625,9 @@ const Home=() => {
         <p className='events1'>11.00AM-2.00PM</p>
         </div>
         <div className='padding'>
-        <p className='event1'>To Date</p>
-        <p className='upcom-date'>22/10/2022</p>
-       <p className='events1'> 11.00AM-2.00PM</p>
+        <p className='eventsing1'>To Date</p>
+        <p className='upcom-dateing'>22/10/2022</p>
+       <p className='events19'> 11.00AM-2.00PM</p>
        </div>
        </div>
         <div className='flexing1'>
@@ -585,13 +644,13 @@ const Home=() => {
         <p className='high-event1'>Holiday</p>
       
         <div className='date1'>
-          <div >
+          <div  className='bounding'>
         <p className='event1'>From Date</p>
         <p className='upcom-date'>22/10/2022</p>
         </div>
         <div className='padding1'>
-        <p className='event1'>To Date</p>
-       <p className='upcom-date'>22/10/2022 </p>
+        <p className='eventsing1'>To Date</p>
+       <p className='upcom-dateing'>22/10/2022 </p>
         </div>
        
         </div>
@@ -602,7 +661,7 @@ const Home=() => {
       <Accordion allowToggle>
   <AccordionItem className='accordion2'>
       <AccordionButton>
-        <Box as="span" flex='1' textAlign='left' className='select'>
+        <Box as="span" flex='1' textAlign='left' className='select100'>
          Select Curriculum
         </Box>
         <AccordionIcon />
@@ -614,7 +673,7 @@ const Home=() => {
 
   <AccordionItem className='accordion2'>
       <AccordionButton>
-        <Box as="span" flex='1' textAlign='left' className='select'>
+        <Box as="span" flex='1' textAlign='left' className='select100'>
           Select section
         </Box>
         <AccordionIcon />
@@ -626,9 +685,10 @@ const Home=() => {
       </AccordionPanel>
   </AccordionItem>
 </Accordion>
+<div className='sec-para'>
 <p className='select'>ID04 : <b>S.B.Mohite</b></p>
 <p className='selectpara'>BE-Civil Department-Semester/YearII-section A</p>
-
+</div>
 <div className='sec-para'>
 <p className='select'>ID44 : <b>S.B.Mohite</b></p>
 </div>
