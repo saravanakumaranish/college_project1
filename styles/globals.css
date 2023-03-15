@@ -71,12 +71,10 @@
 .btn-sec {
   margin-top:1.5rem;
 }
-.main {
-  width:65%;
+ /* .main {
+   width:65%; 
   
-  /* position:relative; */
-  /* margin-left:-1rem; */
-}
+}  */
 
 
 
@@ -119,7 +117,7 @@
 
 
 .search {
-  margin-left:20rem;
+  margin-left:40rem;
 }
 
 .down {
@@ -151,7 +149,7 @@
   border-width:1px;
   border-color:#2264e2;
   margin-top:-10px;
-  margin-left:5rem;
+  margin-left:9rem;
 }
 
 
