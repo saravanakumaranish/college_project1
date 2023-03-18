@@ -394,9 +394,8 @@ const Home=() => {
       </div>
    
     <div>
-      <IconButton >
         < CgRadioChecked  className='radio1'/>
-      </IconButton>
+     
     </div>
      </div>
     
