@@ -15,7 +15,7 @@ import Image from 'next/image'
 import { Input,InputLeftElement,InputGroup } from '@chakra-ui/react'
 import { Avatar } from '@chakra-ui/react'
 import React, { Component } from "react";
-import Slider from "react-slick";
+
 
 
 import {
@@ -50,6 +50,9 @@ const Home=() => {
 
 
 
+
+
+
   
   return (
   
@@ -64,7 +67,7 @@ const Home=() => {
       <p className='edumatica'>Edumatica</p>
     </div>
     <div>
-    <InputGroup className='search' size='md'>
+    <InputGroup className='search'>
     <InputLeftElement 
       pointerEvents='none' >
       <SearchIcon color='gray.500' className='light' />
@@ -83,19 +86,25 @@ const Home=() => {
     </InputGroup>
 
     </div>
+    <div className='mob'>
     <div>
       <IconButton>
       < MdNotifications className='bell' />
       </IconButton>
     </div>
     <div>
-    <Avatar className='avatar' size='sm'  name=' Ram'  src='https://bit.ly/code-beast' />{' '} <span className='rams'> Rams </span>
+    <Avatar className='avatar'  size='md' name=' Ram' src='https://bit.ly/code-beast' />{' '} 
     </div>
     <div>
-      <IconButton>
+    <span className='rams'> Rams </span> 
+    </div>
+    <div className='avatar2'>
+    <IconButton>
       < BsChevronDown className='down' />
       </IconButton>
     </div>
+    </div>
+   
   </div>
 
    
@@ -150,7 +159,7 @@ const Home=() => {
     </div>
     <div>
       <Image src="/classroom.png"
-      alt="class room" width="160" height="160" className='images' />
+      alt="class room"  width="160"  height="160" className='images' />
     </div>
     </div>
 
@@ -320,21 +329,12 @@ const Home=() => {
   <TabPanels>
     <TabPanel>
     <div className='total'><p className='stu'>Total Student : 400 </p>    <p className='stu'>present students : <span className='colors'>300</span> </p>   <p className='stu'> Absent Students : <span className='colors1'>100</span></p> </div> 
-    </TabPanel>
-    <TabPanel>
-      <p>two!</p>
-    </TabPanel>
-    <TabPanel>Three!</TabPanel>
-    <TabPanel>Four!</TabPanel>
-    <TabPanel>Five!</TabPanel>
-    <TabPanel>Six!</TabPanel>
-  </TabPanels>
-</Tabs>
-<div className='main20'>
+    <div className='main20'>
 <div className='comp'>
 
-   
+   <div className='pro'>
   <div  className='process'>
+    <div className='round'>
     <div>
     <h4 className='semv'>BE-Computer-Sem-V</h4>
     </div>
@@ -346,36 +346,15 @@ const Home=() => {
    </IconButton>
     </div>
     </div>
-    
-   
-    <div className='process1'>
-      <div>
-      <h4 className='sem'>BE-Computer-Sem - VII</h4>
-      </div>
-   
+    </div>
+
     <div>
-      <IconButton >
-        < CgRadioChecked  className='radio'/>
-      </IconButton>
-    </div>
-    </div>
-    </div>
-  
-   
-    <CircularProgress value={90}  color='#2264e2' size='150px' thickness='12px' className='sem2' >
+    <CircularProgress value={90}  color='#2264e2' size='170px' thickness='12px' className='sem2' >
   <CircularProgressLabel className='ninty'  >90%</CircularProgressLabel>
 </CircularProgress>
+    </div>
 
-
-   
-
-   
-
-<CircularProgress value={90} color='#2264e2'  size='150px' thickness='12px' className='sem1'>
-  <CircularProgressLabel className='ninty2'  >90%</CircularProgressLabel>
-</CircularProgress>
-<div className='totals'>
-  <div className='totals3' >
+    <div className='totals3' >
     <div className='bi-radio'>
       <div>
         <IconButton>
@@ -412,48 +391,88 @@ const Home=() => {
   </div>
   
 </div>
-<div className='pre'>
-  <div className='radio-abs'>
-    <div>
-    <IconButton>
-          < IoIosRadioButtonOn className='radio-pre' />
-        </IconButton>
-    </div>
-    <div>
-    <p className='totals12'>Total Students </p> 
-    </div>
-    </div>
-    <div className='radio-abs2'>
-      <div>
-    <IconButton>
-          < IoIosRadioButtonOn className='radio-pre1' />
-        </IconButton>
-    </div>
-    <div>
-    <p className='totals-abs1'>Present</p> 
+</div>
     
-    </div>
-
+   <div className='pro2'>
+    <div className='process1'>
+      <div className='round'>
+      <div>
+      <h4 className='sem'>BE-Computer-Sem - VII</h4>
+      </div>
+   
     <div>
-    <IconButton className='radio-abs3'>
-          < IoIosRadioButtonOn className='radio-pre2' />
-        </IconButton>
-</div>
-<div>
-<p className='totals-abs2'>Absent</p>
-</div>
+      <IconButton >
+        < CgRadioChecked  className='radio1'/>
+      </IconButton>
+    </div>
+     </div>
+    
+<CircularProgress value={90} color='#2264e2'  size='170px' thickness='12px' className='sem1'>
+  <CircularProgressLabel className='ninty2'  >90%</CircularProgressLabel>
+</CircularProgress>
+
+<div className='totals'>
+  
+  <div className='pre'>
+    <div className='radio-abs'>
+      <div>
+      <IconButton>
+            < IoIosRadioButtonOn className='radio-pre' />
+          </IconButton>
+      </div>
+      <div>
+      <p className='totals12'>Total Students </p> 
+      </div>
+      </div>
+      <div className='radio-abs2'>
+        <div>
+      <IconButton>
+            < IoIosRadioButtonOn className='radio-pre1' />
+          </IconButton>
+      </div>
+      <div>
+      <p className='totals-abs1'>Present</p> 
+      
+      </div>
+  
+      <div>
+      <IconButton className='radio-abs3'>
+            < IoIosRadioButtonOn className='radio-pre2' />
+          </IconButton>
+  </div>
+  <div>
+  <p className='totals-abs2'>Absent</p>
+  </div>
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  </div>
+  </div>
+    </div>
+   
+    </div>
+   
 
 
-
-
-</div>
-
-
-
-</div>
 </div>
 <button className='vie3'>View All</button>
 </div>
+    </TabPanel>
+    <TabPanel>
+      <p>two!</p>
+    </TabPanel>
+    <TabPanel>Three!</TabPanel>
+    <TabPanel>Four!</TabPanel>
+    <TabPanel>Five!</TabPanel>
+    <TabPanel>Six!</TabPanel>
+  </TabPanels>
+</Tabs>
+
 
 
     </div>
@@ -656,7 +675,7 @@ const Home=() => {
         </div>
         <button className='view'>View All</button>
     </div>
-    <div className='main4'>
+    <div className='main40'>
       <h4 className='leave'>Students on Leave Today</h4>
       <Accordion allowToggle>
   <AccordionItem className='accordion2'>
