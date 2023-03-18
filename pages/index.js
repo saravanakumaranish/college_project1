@@ -47,12 +47,6 @@ const Home=() => {
     // {width:768,itemsToShow:3},
     {width:1200,itemsToShow:2}
   ];
-
-
-
-
-
-
   
   return (
   
@@ -88,9 +82,9 @@ const Home=() => {
     </div>
     <div className='mob'>
     <div>
-      <IconButton>
+   
       < MdNotifications className='bell' />
-      </IconButton>
+     
     </div>
     <div>
     <Avatar className='avatar'  size='md' name=' Ram' src='https://bit.ly/code-beast' />{' '} 
@@ -99,9 +93,10 @@ const Home=() => {
     <span className='rams'> Rams </span> 
     </div>
     <div className='avatar2'>
-    <IconButton>
+      <IconButton>
       < BsChevronDown className='down' />
       </IconButton>
+      
     </div>
     </div>
    
@@ -113,7 +108,7 @@ const Home=() => {
     
 <div className='tally' >
   <div className='icons1'>
-  <IconButton aria-label="Home"  color='#2264e2'>
+  <IconButton aria-label="Home"  >
     < MdHomeFilled size="30px"  />
     </IconButton>
     </div>
@@ -340,10 +335,10 @@ const Home=() => {
     </div>
     
     <div>
-   <IconButton >
+ 
 
     <  CgRadioChecked className='radio' />
-   </IconButton>
+
     </div>
     </div>
     </div>
@@ -357,9 +352,8 @@ const Home=() => {
     <div className='totals3' >
     <div className='bi-radio'>
       <div>
-        <IconButton>
-          < IoIosRadioButtonOn className='radio-circle' />
-        </IconButton>
+        
+          < IoIosRadioButtonOn  className='radio-circle' />
       </div>
       <div>
       <p className='totals2'>Total Students </p>
@@ -369,9 +363,9 @@ const Home=() => {
 <div className='bi-radio1'>
  
   <div >
-        <IconButton>
+       
           < IoIosRadioButtonOn className='radio-circle1' />
-        </IconButton>
+      
       </div>
       <div>
       <p className='totals-stu1'>Present</p>
@@ -381,9 +375,8 @@ const Home=() => {
 
  <div className='bi-radio2'>
  <div>
- <IconButton>
           < IoIosRadioButtonOn className='radio-circle2' />
-        </IconButton>
+        
  </div>
  <div>
   <p className='totals-stu2'>Absent</p>
@@ -416,9 +409,7 @@ const Home=() => {
   <div className='pre'>
     <div className='radio-abs'>
       <div>
-      <IconButton>
             < IoIosRadioButtonOn className='radio-pre' />
-          </IconButton>
       </div>
       <div>
       <p className='totals12'>Total Students </p> 
@@ -426,19 +417,19 @@ const Home=() => {
       </div>
       <div className='radio-abs2'>
         <div>
-      <IconButton>
             < IoIosRadioButtonOn className='radio-pre1' />
-          </IconButton>
       </div>
       <div>
       <p className='totals-abs1'>Present</p> 
       
       </div>
   
-      <div>
-      <IconButton className='radio-abs3'>
-            < IoIosRadioButtonOn className='radio-pre2' />
-          </IconButton>
+      <div >
+      
+        <div   className='radio-abs3'>
+            < IoIosRadioButtonOn className='radio-pre2'  />
+            </div>
+          
   </div>
   <div>
   <p className='totals-abs2'>Absent</p>
@@ -479,11 +470,7 @@ const Home=() => {
     <div className='main11'>
       <h4 className='weight'>Upcoming Public Course Classes</h4>
       <div className='upcoming'>
-        {/* <div>
-          <IconButton>
-            < AiOutlineLeft className='left' />
-          </IconButton>
-        </div> */}
+    
     
     <Caurosel breakPoints={breakPoints1}>
       <div className='border2'>
@@ -578,12 +565,6 @@ const Home=() => {
       </Caurosel>
 
       
-      {/* <div>
-        <IconButton>
-          < AiOutlineRight className='right' />
-        </IconButton>
-      </div>
-      */}
      
      
       </div>
@@ -628,9 +609,8 @@ const Home=() => {
         <h3 className='holi'>Dance Compitition</h3>
         </div>
         <div>
-        <IconButton>
-        < CgRadioChecked className='dance-flexing' />
-      </IconButton>
+      
+      < CgRadioChecked className='dance-flexing' /> 
         </div>
       </div>
     
@@ -654,9 +634,9 @@ const Home=() => {
           <h3 className='holi1'>Holi</h3>
           </div>
           <div>
-          <IconButton>
+          
             < CgRadioChecked className='holi-flexing' />
-          </IconButton>
+      
           </div>
         </div>
        
@@ -724,7 +704,10 @@ const Home=() => {
     
 
   </div>
+ 
+
   </div>
+
 
 
   )

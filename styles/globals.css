@@ -1,6 +1,10 @@
 body {
   background-color: #F0F8FF;
+  
 }
+
+
+
 
   .container {
   background-color: #F0F8FF;
@@ -17,6 +21,19 @@ body {
 .tally {
   margin-top:0.5rem;
 }
+
+.icons1 {
+  margin-top:5rem;
+  padding-right:0.5rem;
+  padding-left:0.5rem;
+  padding-top:0.5rem;
+  padding-bottom:1rem;
+  margin-right:1rem;
+  color:#2264e2;
+  background-color: #FFFFFF;
+
+}
+
 
 .icons {
  
@@ -66,7 +83,7 @@ body {
   color: #2264e2;
 }
 
-
+/* 
 .icons1 {
  
   padding-right:0.5rem;
@@ -77,7 +94,7 @@ body {
   background-color: #FFFFFF;
   margin-top:5rem;
   
-}
+} */
 
 /* .btn-first {
   margin-top:0.5rem;
@@ -90,8 +107,6 @@ body {
  .main {
    margin-left:1rem;
    width:auto;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
     margin-top:5rem;
   
 } 
@@ -137,7 +152,7 @@ body {
   display:flex;
   /* text-align:right; */
   margin-left:auto;
-  margin-right:1rem;
+  margin-right:-2rem;
 }
 
 .input {
@@ -195,6 +210,7 @@ body {
 .bell {
   fill:#2264e2;
   width:45px;
+  cursor:pointer;
   height:45px;
   border-style: solid;
   background-color: skyblue;
@@ -230,7 +246,7 @@ body {
 .main2 {
   margin-left:4rem;
   
-  width:92%;
+  width:90%;
   position:relative;
  
   margin-top:-1rem;
@@ -278,18 +294,17 @@ body {
   margin-right:0;
   width:auto;
   margin-top:1rem;
+
   
 }
 
 .pre {
   display:flex;
-  /* margin-left:24.5rem; */
-  /* background-color: #FEFEFA; */
-  /* margin-top:-1rem; */
+
   padding-top:2rem;
-  /* margin-left:-1rem; */
-  /* padding-left:4rem; */
-  /* padding-right:2.1rem; */
+  margin-left:2.5rem;
+  padding-bottom:1rem;
+
   
 
 }
@@ -297,7 +312,7 @@ body {
 .totals3 {
   display:flex;
   margin-top:3rem;
-  margin-left:3rem;
+  margin-left:9rem;
   
 }
 
@@ -309,13 +324,13 @@ body {
 
 .totals-stu1 {
   margin-right:0.5rem;
-  margin-left:-1rem;
+  /* margin-left:1rem; */
   font-size:13px;
 }
 .totals-stu2 {
   margin-right:0.5rem;
   font-size:13px;
-  margin-left:-1.6rem;
+  /* margin-left:1.6rem; */
 }
 
 .totals1 {
@@ -344,9 +359,9 @@ body {
 }
 
 .radio-circle{
-  margin-top:-1.3rem;
-  margin-left:-6.5rem;
-  width: 14px;
+  margin-top:0.1rem;
+  margin-left:-5rem;
+  width: 17px;
   fill : #d3d3d3;
   padding-right:2px;
 }
@@ -366,27 +381,28 @@ body {
 }
 
 .radio-pre {
-     margin-left:-1rem;
-     margin-top:-0.5rem;
-     width:14px;
-     padding-right:3px;
+     margin-left:-2.5rem;
+     margin-top:0.5rem;
+     width:17px;
+     padding-right:5px;
      fill:#d3d3d3;
    
 }
 
 .radio-pre1 {
-  margin-left:-1rem;
+  margin-left:0.5rem;
+  margin-top:0.5rem;
 
  
   fill:#2264e2;
-  margin-top:-0.5rem;
+  /* margin-top:-0.5rem; */
   width:14px;
   padding-right:3px;
 }
 
 .radio-pre2 {
-  margin-left:-1rem;
-  margin-top:-0.5rem;
+  margin-left:0.5rem;
+  margin-top:0.5rem;
   width:14px;
   padding-right:3px;
  
@@ -397,30 +413,30 @@ body {
 .totals-abs1 {
   font-size:13px;
   margin-top: 0.3rem;
-  margin-left:-1.4rem;
+  /* margin-left:0.5rem; */
 }
 
 .totals-abs2 {
   font-size:13px;
   margin-top: 0.3rem;
-  margin-left:-1.4rem;
+  /* margin-left:1rem; */
 }
 
 
 
 
 .radio-circle1{
-  margin-top:-1.3rem;
-  margin-left:-0.5rem;
-  width: 14px;
+  margin-top:0.1rem;
+  margin-left:0.5rem;
+  width: 17px;
   fill:#2264e2;
   padding-right:2px;
 }
 
 .radio-circle2{
-  margin-top:-1.3rem;
-  margin-left:-1.3rem;
-  width: 14px;
+  margin-top:0.1rem;
+  /* margin-left:-1.3rem; */
+  width: 17px;
   fill:orange;
   padding-right:2px;
 }
@@ -558,8 +574,12 @@ body {
   /* padding-right:1rem; */
   margin-top:1.5rem;
   color:white;
- 
+
 }
+
+
+
+
 .first5 {
   width:40%;
   margin-left:2rem;
@@ -923,8 +943,9 @@ color:white;
 
 .vie3 {
   margin-top:0.4rem;
-  margin-left:50rem;
-  width:7%;
+  margin-left:55rem;
+
+  width:5.8%;
   /* margin-bottom: 0.5rem; */
   font-size: 15px;
   color: #2264e2;
@@ -1091,7 +1112,7 @@ color:white;
 }
 
 .accordion4 {
-  width:60%;
+  width:80%;
   margin-right:4rem;
   margin-left:8rem;
   border-radius:4px;
@@ -1225,6 +1246,7 @@ color:white;
 .process {
   /* display:flex; */
   background-color: #FEFEFA;
+  margin-left:4rem;
   /* margin-left:4rem; */
   /* padding-left:1rem;
   padding-right:1rem;
@@ -1248,8 +1270,8 @@ color:white;
 }
 
 .radio {
-  margin-top: -1.2rem;
-  margin-left:13rem;
+  /* margin-top: -0.5rem; */
+  margin-left:11rem;
   color:#2264e2;
 }
 
@@ -1282,7 +1304,8 @@ color:white;
 
 .sem2 {
   
-  margin-top:2rem;
+  margin-top:2.5rem;
+  margin-left:4rem;
 
 }
 
@@ -1295,11 +1318,12 @@ color:white;
   margin-right:auto;
   margin-left:0;
   background-color: #FEFEFA;
-  padding-left:5rem;
+  padding-left:1rem;
   /* padding-right:1rem; */
   width:auto;
   margin-top:1rem;
   padding-top:1rem;
+  padding-bottom: 1rem;
 }
 
 .sem1 {
